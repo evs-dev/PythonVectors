@@ -1,4 +1,4 @@
-from sqrt import sqrt
+from .sqrt import sqrt
 
 class Vector2():
     def __init__(self, x=0, y=0):

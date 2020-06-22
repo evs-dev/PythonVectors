@@ -1,5 +1,5 @@
-from sqrt import sqrt
-from vector2 import Vector2
+from .sqrt import sqrt
+from .vector2 import Vector2
 
 class Vector3(Vector2):
     def __init__(self, x=0, y=0, z=0):

@@ -13,7 +13,7 @@ python -m pip install git+https://github.com/evs-dev/PythonVectors#egg=PythonVec
 Vector2 and Vector3 have identical functionality, the only difference being that Vector3 has a `z` attribute.
 
 ```python
-from python-vectors import Vector2, Vector3
+from python_vectors import Vector2, Vector3
 
 >>> Vector2()
 Vector2(0, 0)
