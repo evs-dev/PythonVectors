@@ -1,3 +1,10 @@
+# PythonVectors
+
+![version](https://img.shields.io/badge/version-1.0.0-orange)
+![python-versions](https://img.shields.io/badge/python-%3E%3D%203.6-blue)
+![GitHub-license](https://img.shields.io/github/license/evs-dev/PythonVectors)
+![package-size](https://img.shields.io/github/languages/code-size/evs-dev/PythonVectors?color=red&label=package%20size)
+
 ## About
 
 PythonVectors is a simple package for Python >= 3.6 which contains classes for Vector2 and Vector3, complete with overloads for almost all operators.
@@ -23,6 +30,12 @@ Vector3(0, 0, 0)
 
 a = Vector2(2, 4)
 b = Vector2(-3, 6)
+
+>>> a.x
+2
+
+>>> b.y
+6
 
 '''Functions for getting normali[s/z]ed vector and magnitude'''
 
