@@ -1,21 +1,21 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python-vectors-EvsDev",
-    version="1.0.0",
-    author="EvsDev",
-    description="A simple vectors package",
+    name='python-vectors-EvsDev',
+    version='1.0.0',
+    author='EvsDev',
+    description="A simple vectors package',
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/evs-dev/PythonVectors",
+    long_description_content_type='text/markdown',
+    url='https://github.com/evs-dev/PythonVectors',
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
 )
