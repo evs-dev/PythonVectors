@@ -16,7 +16,7 @@ class Vector3(Vector2):
     def get_magnitude(self):
         return sqrt(self.get_square_magnitude())
 
-    '''Arithmetic Operator Overloads'''
+    # Arithmetic Operator Overloads
 
     def __str__(self):
         return f'Vector3({self.x}, {self.y}, {self.z})'
@@ -57,4 +57,4 @@ class Vector3(Vector2):
         z = self.z % other.z
         return Vector3(x, y, z)
 
-    '''Comparison Operator Overloads (inherited)'''
+    # Comparison Operator Overloads (inherited)

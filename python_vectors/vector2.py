@@ -18,7 +18,7 @@ class Vector2():
     def get_magnitude(self):
         return sqrt(self.get_square_magnitude())
 
-    '''Arithmetic Operator Overloads'''
+    # Arithmetic Operator Overloads
 
     def __str__(self):
         return f'Vector2({self.x}, {self.y})'
@@ -53,7 +53,7 @@ class Vector2():
         y = self.y % other.y
         return Vector2(x, y)
 
-    '''Comparison Operator Overloads'''
+    # Comparison Operator Overloads
 
     def __lt__(self, other):
         self_mag = self.get_square_magnitude()
