@@ -15,6 +15,10 @@ class Vector3(Vector2):
         """Return the square magnitude (length) of the vector"""
         return self.x**2 + self.y**2 + self.z**2
 
+    def to_vector2(self):
+        """Converts this Vector3 to Vector2, ignoring z attribute"""
+        return Vector2(self.x, self.y)
+
     # Arithmetic Operator Overloads
 
     def __str__(self):
