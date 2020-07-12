@@ -7,7 +7,7 @@ setuptools.setup(
     name='python-vectors-EvsDev',
     version='1.0.1',
     author='EvsDev',
-    description="A simple vectors package',
+    description='A simple vectors package',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/evs-dev/PythonVectors',
