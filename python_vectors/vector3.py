@@ -20,6 +20,9 @@ class Vector3(Vector2):
     def __str__(self):
         return f'Vector3({self.x}, {self.y}, {self.z})'
 
+    def __int__(self):
+        return Vector3(int(self.x), int(self.y), int(self.z))
+
     def __iter__(self):
         return iter([self.x, self.y, self.z])
 

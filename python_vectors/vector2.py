@@ -29,6 +29,9 @@ class Vector2():
     def __str__(self):
         return f'Vector2({self.x}, {self.y})'
 
+    def __int__(self):
+        return Vector2(int(self.x), int(self.y))
+
     def __iter__(self):
         return iter([self.x, self.y])
 
