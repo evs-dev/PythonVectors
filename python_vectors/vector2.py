@@ -1,21 +1,27 @@
 from .sqrt import sqrt
 
 class Vector2():
+    """Representation of points and vectors in 2-dimensional space"""
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
 
     def get_normalised(self):
+        """Return the normalised version of the vector"""
         mag = self.get_magnitude()
         return Vector2(self.x / mag, self.y / mag)
 
     def get_normalized(self):
+        """Return the normalized version of the vector
+        (alias for get_normalised)"""
         return self.get_normalised()
 
     def get_square_magnitude(self):
+        """Return the square magnitude (length) of the vector"""
         return self.x**2 + self.y**2
 
     def get_magnitude(self):
+        """Return the magnitude (length) of the vector"""
         return sqrt(self.get_square_magnitude())
 
     # Arithmetic Operator Overloads

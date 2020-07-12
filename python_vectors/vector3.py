@@ -7,10 +7,12 @@ class Vector3(Vector2):
         self.z = z
 
     def get_normalised(self):
+        """Return the normalised version of the vector"""
         mag = self.get_magnitude()
         return Vector3(self.x / mag, self.y / mag, self.z / mag)
 
     def get_square_magnitude(self):
+        """Return the square magnitude (length) of the vector"""
         return self.x**2 + self.y**2 + self.z**2
 
     def get_magnitude(self):
