@@ -35,6 +35,9 @@ class Vector2():
     def __iter__(self):
         return iter([self.x, self.y])
 
+    def __len__(self):
+        return self.get_magnitude()
+
     def __add__(self, other):
         x = self.x + other.x
         y = self.y + other.y
