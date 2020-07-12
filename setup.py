@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='python-vectors-EvsDev',
-    version='1.0.0',
+    version='1.0.1',
     author='EvsDev',
     description="A simple vectors package',
     long_description=long_description,
