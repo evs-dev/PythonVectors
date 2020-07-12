@@ -1,6 +1,6 @@
 # PythonVectors
 
-![version](https://img.shields.io/badge/version-1.0.0-orange)
+![version](https://img.shields.io/badge/version-1.0.1-orange)
 ![python-versions](https://img.shields.io/badge/python-%3E%3D%203.6-blue)
 ![GitHub-license](https://img.shields.io/github/license/evs-dev/PythonVectors)
 ![package-size](https://img.shields.io/github/languages/code-size/evs-dev/PythonVectors?color=red&label=package%20size)
